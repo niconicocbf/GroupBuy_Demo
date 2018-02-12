@@ -15,4 +15,3 @@
 UI(Find):
 >>>>>>>>>>>>>![](https://github.com/niconicocbf/GroupBuy_Demo/blob/master/res/raw/Screenshot_20180212-152002.jpg?raw=true=100x20)
 
-Screenshot_20180212-152002.jpg
