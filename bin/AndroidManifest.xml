@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gumei.groupbuy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.gumei.groupbuy.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MapActivity" >
+        </activity>
+        <activity android:name=".CityChooseActivity" >
+        </activity>
+        <activity android:name=".MaketListActivity" >
+        </activity>
+        <activity android:name=".MoiveListActivity" >
+        </activity>
+        <activity android:name=".MoiveDetialActivity" >
+        </activity>
+        <activity android:name=".GroupListActivity" >
+        </activity>
+        <activity android:name=".MaketDetialActivity" >
+        </activity>
+        <activity android:name=".GoodsDetialActivity" >
+        </activity>
+        <activity android:name=".GoodsDetialImgActivity" >
+        </activity>
+        <activity android:name=".OrderComfirmActivity" >
+        </activity>
+        <activity android:name=".OrderSuccessfulActivity" >
+        </activity>
+        <activity android:name=".OrderGroupTicketActivity" >
+        </activity>
+        <activity android:name=".MyPurseActivity" >
+        </activity>
+        <activity android:name=".MyOrderActivity" >
+        </activity>
+        <activity
+            android:name="com.gumei.groupbuy.scan.MipcaActivityCapture"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+    </application>
+
+    <!-- 手机权限  二维码 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!-- 地图 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 获取mac地址作为用户的备用唯一标识 -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 允许应用程序联网，以便向我们的服务器端发送数据。 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 缓存资源优先存入SDcard -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 用于评论模块分享位置信息 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 获取用户手机的IMEI，用来唯一的标识用户。 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" /> <!-- 修改系统亮度权限 -->
+
+</manifest>
