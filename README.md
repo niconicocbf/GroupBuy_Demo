@@ -15,3 +15,10 @@
 UI(Find):
 >>>>>>>>>>>>>![](https://github.com/niconicocbf/GroupBuy_Demo/blob/master/res/raw/Screenshot_20180212-152002.jpg?raw=true=100x20)
 
+# OverView
+<img width="400" height="650" src="https://raw.githubusercontent.com/niconicocbf/GroupBuy_Demo/master/res/raw/group_main.gif" />
+<img width="400" height="650" src="https://raw.githubusercontent.com/niconicocbf/GroupBuy_Demo/master/res/raw/groupbuy_tow.gif" />
+
+
+
+
